@@ -1,21 +1,75 @@
 .container{
-    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    background-color:white;
     width: 1000px;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    color: black;
+    margin: -1% auto auto auto ;
 }
 .header{
     width: 100%;
+    grid-column: 1/4;
     height: 486px;
-    background-color: aqua;
+    background-image:url('../img/deadpool3.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .menu{
-    margin: 0px;
+    overflow: hidden;
+    background-color:gray;
+    grid-column: 1/4;
+}
+.menu li {
+    align-items: center;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    text-decoration: none
+}
+footer{
     width: 100%;
-    height: 50px;
-    background-color: darkgoldenrod;
+    grid-column: 1/4;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 body{
-    background-color: grey;
+    background-color: black;
 }
+.header h1{
+    margin-top: 400px;
+    margin-left: 30px;
+    color:blue;
+
+
+}
+.Sinopsis{
+    padding: 0 20% 0 20%;   
+}
+h4{
+    color: gray;
+}
+.resenia{
+    padding: 0% 30% 0% 30%;
+
+}
+h3{
+    padding: 0 20% 0 20%;
+}
+p{
+    width: 840px;
+    margin: auto;
+    padding: 0 20% 0 20%;
+}
+.resenia p{
+    width: 650px;
+    padding: 0% 20% 10% 20%;
+}
+
+    
+
